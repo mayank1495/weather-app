@@ -22,11 +22,12 @@ geocode.geocodeAddress(argv.address, (errorMessage, results) => {
 	if (errorMessage) {
 		console.log(errorMessage);
 	} else {
-		weather.weatherRequest(results.latitude, results.longitude, (errorMsg, temp) => {
+		weather.weatherRequest(results.Latitude, results.Longitude, (errorMsg, temp) => {
 			if (errorMsg) {
 				console.log(errorMsg);
 			} else {
 				console.log(JSON.stringify(results, undefined, 2));
+				// console.log(JSON.stringify(temp.temp, undefined, 2));
 				console.log(`Temperatur: ${temp.temp}`);
 			}
 		});
