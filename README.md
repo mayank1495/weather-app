@@ -27,5 +27,5 @@ node app-promise.js --help
 ## Dependencies
 
 1. [Yargs](https://www.npmjs.com/package/yargs "Yargs" ) : To parse command line arguments.
-2.[Request](https://www.npmjs.com/package/request "Request"): To make http calls.
-3.[Axios](https://www.npmjs.com/package/axios "Axios" ): Promise based http client
+2. [Request](https://www.npmjs.com/package/request "Request"): To make http calls.
+3. [Axios](https://www.npmjs.com/package/axios "Axios" ): Promise based http client.
