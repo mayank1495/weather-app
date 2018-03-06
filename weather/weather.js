@@ -1,7 +1,7 @@
 const request = require('request');
 
 const weatherURL = 'https://api.darksky.net/forecast';
-const APIkey = 'd087458df0d4a8c2c58b7c62f8708782';
+const APIkey = ''; // ADD API KEY
 
 var weatherRequest = (lat, lng, callback) => {
 	
