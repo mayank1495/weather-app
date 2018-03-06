@@ -19,4 +19,4 @@ var passedAdd = encodeURIComponent(argv.address);
 var geoURL = geoAPIurl + passedAdd;
 var weatherAPIurl = 'https://api.darksky.net/forecast';
 var APIkey = 'd087458df0d4a8c2c58b7c62f8708782';
-var weatherURL = `${weatherURL}/${APIkey}/`;
+var weatherURL = `${weatherAPIurl}/${APIkey}/`;
